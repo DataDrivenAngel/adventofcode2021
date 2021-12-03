@@ -3,7 +3,9 @@
 filename = "AOC11.txt"
 
 # open
-
+text = open("AOC11.txt",'r')
+inpt = text.read().split()
+measurements = [int(line) for line in inpt]
 
 # count number of higher measurements
 count = 0
