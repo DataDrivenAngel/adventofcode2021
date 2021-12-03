@@ -1,9 +1,9 @@
 # day 1 part 1
 
-filename = "AOC11.txt"
+filename = "1-1-input.txt"
 
 # open
-text = open("AOC11.txt",'r')
+text = open("1-1-input.txt",'r')
 inpt = text.read().split()
 measurements = [int(line) for line in inpt]
 
