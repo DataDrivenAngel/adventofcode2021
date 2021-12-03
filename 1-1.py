@@ -1,7 +1,5 @@
 # day 1 part 1
 
-filename = "1-1-input.txt"
-
 # open
 text = open("1-1-input.txt",'r')
 inpt = text.read().split()
