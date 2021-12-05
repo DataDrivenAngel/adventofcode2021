@@ -12,16 +12,15 @@ window_back = 0
 prev = measurements[window_back:window_front]
 
 for measure in (measurements[1:]):
+    
     window_front +=1
     window_back +=1
     window = measurements[window_back:window_front]
+
     window_sum = sum(window)
     prev_sum = sum(prev)
     if window_sum > prev_sum:
         count +=1
-        change = " > "
-    else:
-        change = " < "
     prev = window
     
 
