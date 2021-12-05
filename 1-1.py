@@ -8,9 +8,11 @@ measurements = [int(line) for line in inpt]
 # count number of higher measurements
 count = 0
 prev = measurements[0]
-for measurem in measurements[1:]:
-   if measure > prev
+for measure in measurements[1:]:
+   if measure > prev:
       count +=1 
-   prev = measuremnt
+   prev = measure
 
 print(count)
+#returns 1462
+#which is correct
